@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WalkingNavigator</string>
+    <string name="btn_start_name">Начать</string>
+    <string name="tv_finish_name">Финишь:</string>
+    <string name="et_input_address">Введите адрес:</string>
+    <string name="hint_ed">Введите адрес</string>
+</resources>

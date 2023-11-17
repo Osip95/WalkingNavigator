@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        google()
+
+        gradlePluginPortal()
+
+        mavenCentral()
+        maven {
+            url "http://maven.google.com/"
+            allowInsecureProtocol = true
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "WalkingNavigator"
+include ':app'
